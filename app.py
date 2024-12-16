@@ -44,7 +44,7 @@ app = Dash(
     __name__,
     external_stylesheets=[dbc.themes.BOOTSTRAP],
     suppress_callback_exceptions=True,
-    title='Fundacion2050',
+    title='Asamblea Deliberativa 2024',
     assets_folder=static_folder  # Configurar carpeta de assets
 )
 
