@@ -350,10 +350,10 @@ app.layout = html.Div([
 #    return dcc.send_file("./Productos.xlsx")
 
 
-#@app.callback(
-#    Output('tabs-content', 'children'),
-#    [Input('graph-tabs', 'value')]
-#)
+@app.callback(
+    Output('tabs-content', 'children'),
+    [Input('graph-tabs', 'value')]
+)
 
 def update_tab(tab):
 
